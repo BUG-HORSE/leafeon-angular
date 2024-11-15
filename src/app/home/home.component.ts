@@ -7,7 +7,7 @@ import { RouterModule } from '@angular/router';
   standalone: true,
   imports: [CommonModule, RouterModule],
   template: `
-  <div class="container d-flex justify-content-center align-items-center rounded p-3 border border-warning">
+  <div class="container d-flex justify-content-center align-items-center rounded p-3">
     <div class="col-6">
       <img src="images/ROSTI.jpg" height="600px" class="rounded">
     </div>
