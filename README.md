@@ -1,4 +1,8 @@
-# LeafeonAngular
+@ I'm learning angular with this project
+xoxo
+---
+
+## LeafeonAngular
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.2.11.
 
