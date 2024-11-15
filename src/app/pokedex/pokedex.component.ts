@@ -9,7 +9,7 @@ import { PokemonsService } from '../pokemons.service';
   standalone: true,
   imports: [CommonModule, PokemonListComponent],
   template: `
-  <div class= "results">
+  <div class= "results justify-content-center">
     <app-pokemon-list *ngFor="let pokemon of pokemonList" [pokemon]="pokemon"></app-pokemon-list>
   </div>
 

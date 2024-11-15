@@ -17,8 +17,7 @@ import { NavBarComponent } from './nav-bar/nav-bar.component';
           <router-outlet></router-outlet>
         </section>
         <footer class="footer mt-auto py-3">
-          <div class="footer-container d-flex justify-content-between align-items-center">
-            <p class="text-center mb-0">© 2021 BUGH0RSE</p>
+          <div class="footer-container d-flex justify-content-end">
             <img
               [src]="isPlaying ? 'images/leafeon.gif' : 'images/leafeon_silent.png'"
               alt="Footer Image"
@@ -38,11 +37,10 @@ export class AppComponent {
 
   toggleAudio() {
     if (this.isPlaying) {
-      this.audio.pause(); // Pauzeer de muziek
-      this.audio.currentTime = 0; // Reset de tijd als je dat wilt
+      this.audio.pause(); 
       this.isPlaying = false;
     } else {
-      this.audio.play(); // Speel de muziek af
+      this.audio.play();
       this.isPlaying = true;
     }
   }
