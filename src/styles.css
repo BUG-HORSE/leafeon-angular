@@ -1,1 +1,12 @@
 /* You can add global styles to this file, and also import other style files */
+body {
+  background-image: url('/images/wallpaper01.gif');
+  background-size: cover;
+  background-repeat: repeat;
+}
+
+.container {
+  background-color: white;
+  border-radius: 5px;
+}
+

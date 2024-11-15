@@ -1,0 +1,25 @@
+{
+  "pokemon": [
+    {
+      "photo": "images/bulbasaur.png",
+      "id": 1,
+      "name": "Bulbasaur",
+      "type": "Grass",
+      "base_experience": 64
+    },
+    {
+      "photo": "images/ivysaur.png",
+      "id": 2,
+      "name": "Ivysaur",
+      "type": "Grass",
+      "base_experience": 142
+    },
+    {
+      "photo": "images/venusaur-f.png",
+      "id": 3,
+      "name": "Venusaur",
+      "type": "Grass",
+      "base_experience": 236
+    }
+  ]
+}
